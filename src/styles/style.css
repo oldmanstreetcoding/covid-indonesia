@@ -1,0 +1,34 @@
+/* 
+    Halaman ini menyimpan styling utama dari aplikasi yang berlaku secara global
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lucida Console", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 100%;
+}
+
+.card {
+    background-color: floralwhite;
+}
+
+.bg-covidupdate {
+    background-color: DarkTurquoise;
+    color: white;
+}
+
+.text-covidupdate {
+    color: DarkTurquoise;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "codingcovid",
+  "version": "1.0.0",
+  "description": "Web App Memantau Update Kasus Covid19 di Indonesia Sebagai Bahan Submission Kelas Belajar Fundamental Front-End Web Development Dicoding",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack-dev-server --config webpack.dev.js"
+  },
+  "keywords": [
+    "covid19"
+  ],
+  "author": "Ahmad Furqan",
+  "license": "ISC",
+  "dependencies": {
+    "apexcharts": "^3.20.0",
+    "bootstrap": "^4.5.2",
+    "datatables.net": "^1.10.21",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  }
+}
